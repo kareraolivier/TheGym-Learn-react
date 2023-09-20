@@ -1,0 +1,16 @@
+.navbar {
+    padding: .5rem 2rem;
+
+
+    .logo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+        p {
+            color: #FF5A5F;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+    }
+}
