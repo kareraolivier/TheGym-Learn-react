@@ -1,0 +1,73 @@
+.meme {
+    padding: 2rem 0;
+    width: 100%;
+
+
+    h1 {
+        padding: 2rem;
+        background-color: purple;
+        color: white;
+        font-size: 2rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+}
+
+form {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    input {
+        border: grey solid;
+        font-size: 1rem;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-radius: .5rem;
+        color: grey;
+        outline: none;
+        width: 20rem;
+
+        background-color: rgb(244, 235, 244);
+
+    }
+}
+
+
+
+.image {
+    max-width: 30rem;
+    height: 30rem;
+    margin: auto;
+    cursor: pointer;
+
+    div {
+        max-width: 30rem;
+        height: 25rem;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: inherit;
+
+        p {
+
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 2px rgb(0, 0, 0);
+        }
+
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+}
