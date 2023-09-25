@@ -8,7 +8,6 @@ const Meme = () => {
   const [formData, setFormData] = useState({});
   const changeImage = () => {
     const MemeImage = Math.floor(Math.random() * Photo.length);
-    console.log(MemeImage);
     setImage(MemeImage);
   };
   const HundleChange = (event) => {
